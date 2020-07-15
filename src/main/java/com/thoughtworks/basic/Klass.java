@@ -1,15 +1,21 @@
 package com.thoughtworks.basic;
 
+import java.util.List;
+
 public class Klass {
     private int classNumber;
-    private Student[] students;
+    private List<Student> students;
     private Teacher teacher;
 
-    public Student[] getStudents() {
+    public Klass(int classNumber) {
+        this.classNumber = classNumber;
+    }
+
+    public List<Student> getStudents() {
         return students;
     }
 
-    public void setStudents(Student[] students) {
+    public void setStudents(List<Student> students) {
         this.students = students;
     }
 

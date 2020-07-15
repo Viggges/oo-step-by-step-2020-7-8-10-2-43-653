@@ -4,6 +4,13 @@ public class Teacher extends Person{
     private String name;
     private int age;
     private String job;
+
+    public Teacher(String name, int age, String job) {
+        this.name = name;
+        this.age = age;
+        this.job = job;
+    }
+
     @Override
     public String introduce(){
         return "My name is "+name+". I am "+age+" years old. I am a "+job+".";
