@@ -5,8 +5,6 @@ import com.rabbitmq.client.Channel;
 import com.rabbitmq.client.DefaultConsumer;
 import com.rabbitmq.client.Envelope;
 
-import java.io.IOException;
-
 /**
  * @author Administrator
  */
